@@ -12,7 +12,7 @@ def isprime(l):
 
 
 a = []
-for i in range(2, 1088):
+for i in range(2, 1000):
     if isprime(i) == True:
         a.append(i**2)
 for i in dane:
