@@ -4,8 +4,6 @@ plik.close()
 
 
 def isprime(l):
-    if l < 2:
-        return False
     for i in range(2, l):
         if l % i == 0:
             return False
@@ -14,7 +12,8 @@ def isprime(l):
 
 
 a = []
-for i in range(0, 1087):
+for i in range(2, 1088):
+    print(i)
     if isprime(i) == True:
         a.append(i**2)
 for i in dane:
